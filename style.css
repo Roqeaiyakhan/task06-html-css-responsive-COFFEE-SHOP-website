@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.395), rgba(255, 255, 255, 0.395)),url(./coffee-1576552_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(75, 38, 20,);
+}
+
+/* Navbar */
+ nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#log img{
+width: 80px;
+height: 80px;
+padding-left: 40px;
+
+} 
+
+.ancor-tag{
+    margin-top: 20px;
+    padding-right: 60px;
+
+}
+.ancor-tag a{
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px, 20px;
+    color: rgb(75, 38, 20);
+    background-color: #ffffffff;
+} 
+
+
+/* small 1000px */
+@media(max-width:1000px){
+    #log img{
+        width: 70px;
+        height: 70px;
+        padding-left: 30px;
+    }
+    .ancor-tag{
+        padding-right: 50px;
+
+    }
+.ancor-tag a{
+    padding: 10px 10px;
+}
+}
+@media(max-with:780px){
+    #log img{
+        width: 60px;
+        height: 60px;
+    }
+    .ancor-tag a{
+font-size: 2.7vh;
+padding: 5px;
+    }
+}
+
+/* Mobile */
+@media(max-width:420px){
+    #log img{
+        height: 50px;
+        width: 50px;
+        padding-left: 10px;
+    }
+    .ancor-tag{
+        padding-right: 10px;
+    }
+.ancor-tag a{
+    padding: 5px 5px;
+    font-size: 1.6vh;
+}
+
+
+}
+
