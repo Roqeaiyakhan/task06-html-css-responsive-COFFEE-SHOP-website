@@ -130,14 +130,32 @@ background-color: transparent;
     font-size: 13px;
     padding: 5px;
 }
+/* img and text */
+.img-text{
+     display: flex;
+    padding: 40px 40px;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative; 
+}
+.img-text img{
+    width: 400px;
+    margin-right: 40px;
+}
+.img-text p{
+    text-align: justify;
+    font-size: x-large;
+    margin-right: 110px;
+    /* margin-top: -5px; */
+    margin-bottom: -5px;
+}
 
 
 
 
 
-
-
-/* small 1000px */
+/* small 1000px .................*/
 @media(max-width:1000px){
     #log img{
         width: 70px;
@@ -210,12 +228,24 @@ padding: 5px;
     font-size: 13px;
     padding: 5px;
 }
+/* img and text */
+.img-text{
+    padding: 40px 10px;
+    margin-top: 30px;
+}
+.img-text img{
+    width: 33%;
+}
+.img-text p{
+    padding: 10px 20px;
+    font-size: 2.6vh;
+}
 
 
 
 
 }
-/* tabs */
+/* tabs ...........*/
 @media(max-width: 700px){
 #log img{ 
     height: 60px;
@@ -259,6 +289,7 @@ h1 em{
     from{right: opx; }
     to{right: 5%;}
 }
+
 /* coffee */
 
 .coffee-cup{
@@ -276,8 +307,21 @@ font-size: medium;
 .coffee-cup p{
 font-size: 1.7vh;
 }
+/* img and text */
+.img-text{
+    padding: 40px 0px;
+    margin-top: 30px;
+}
+.img-text img{
+    width: 30%;
+}
+.img-text p{
+    padding: 0px 20px;
+    font-size: 2vh;
+}
+}
 
-/* Mobile */
+/* Mobile ........*/
 @media(max-width:420px){
     #log img{
         height: 50px;
@@ -349,5 +393,24 @@ margin-top: -15px;
 }
 .coffee-cup p{
 padding: 10px;
+}
+/* img and text */
+.img-text{
+    display: grid;
+    padding: 0;
+    margin-bottom: 60px;
+    margin: 0;
+}
+.img-text img{
+    width: 140px;
+    display: block;
+    margin: 0 auto;
+}
+.img-text p{
+    padding-top:  20px;
+    font-size: 2.6vh;
+    margin-right: 0;
+    text-align: justify;
+    font-family:  'Arial Narrow', Arial, sans-serif;
 }
 }
