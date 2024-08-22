@@ -212,6 +212,37 @@ padding: 12px;
     margin-top: -150px;
     font-size: 25px;
 }
+/* footer */
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.495),rgba(0,0,0,0.495)),url(./Coffee_Beans_Footer1.png);
+ background-size: cover;
+ display: flex;
+ margin-top: 150px;
+ padding-top: 50px;
+ justify-content: space-evenly;
+ color: aliceblue;
+
+}
+footer ul{
+    margin-bottom: 20px;
+
+}
+footer h4{
+    margin-bottom: 22px;
+
+}
+footer ul li{
+    list-style-type: none;
+    color: #fff;
+    padding-top: 5;
+}
+footer a img{
+    width: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
 
 
 /* small 1000px .................*/
@@ -329,6 +360,18 @@ padding: 5px;
     margin-top: -180px;
     font-size: 25px;
 }
+/* footer */
+footer{
+    margin-top: 150px;
+    padding: 52px;
+}
+footer img{
+    width: 15px;
+    padding: 5px;
+}
+footer ul li{
+    font-size: small;
+}
 
 }
 /* tabs ...........*/
@@ -439,6 +482,22 @@ font-size: 1.7vh;
 .beans-container p{
     margin-top: -180px;
     font-size: 15px;
+}
+/* footer */
+footer{
+    margin-top: 100px;
+    padding: 50px;
+}
+footer h4{
+    font-size: 1.4vh;
+
+}
+footer img{
+    width: 10px;
+    padding: 2px;
+}
+footer ul li{
+    font-size: 1.3vh;
 }
 }
 
