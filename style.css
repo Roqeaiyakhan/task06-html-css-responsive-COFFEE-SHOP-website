@@ -5,7 +5,7 @@
 
 
 body{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.395), rgba(255, 255, 255, 0.395)),url(./coffee-1576552_1280.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.395), rgba(255, 255, 255, 0.395)),url(./images/coffee-1576552_1280-fotor-20240825161213.png);
     background-size: cover;
     background-position: center;
     background-attachment:fixed ;
@@ -19,12 +19,12 @@ body{
     align-items: center;
     justify-content: space-between; 
     padding: 10px 20px;
-    background-color: #826455; 
+    /* background-color: #b69584;  */
 
 }
 
 .logo img {
-    max-height: 50px; 
+    max-height: 90px; 
 }
 
 .menu ul {
@@ -40,8 +40,9 @@ body{
 
 .menu ul li a {
     text-decoration: none;
-    color: #efeaea; 
+    color: #a48585; 
     font-size: 20px; 
+    font-size: x-large;
 }
 
 .menu ul li a:hover {
@@ -55,7 +56,7 @@ body{
 }
 .home-heading{
     padding: 150px 70px;
-    font-size: large;
+    font-size: x-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .home-heading h1{
@@ -111,12 +112,12 @@ background-color: transparent;
     margin-top: 40px;
 }
 .coffee-cup{
-    width: 190px;
-    height: 200px;
+    width: 300px;
+    height: 290px;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 50px;
-    background-image: linear-gradient(rgba(0,0,0,0.265),rgba(0,0,0,0.265)),url(./back4.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.265),rgba(0,0,0,0.265)),url(./images/back4.jpg);
     background-size: cover;
     color: aliceblue;
     transition: transform 0.5s ease-in 0.4s;
@@ -125,11 +126,12 @@ background-color: transparent;
     transform: scale(1.1);
 }
 .coffee-cup img{
-    width: 150px;
-    height: 130px;
+    width: 200px;
+    height: 190px;
     position: relative;
     top: -40px;
     border-radius: 50%;
+
 }
 .coffee-cup h2{
     margin-top: -15px;
@@ -145,6 +147,7 @@ background-color: transparent;
     display: flex;
     align-items: center;
     padding: 20px;
+    font-size: x-large;
 }
 
 .image-container {
@@ -176,7 +179,7 @@ background-color: transparent;
     border: 5px solid white;
     text-align: center;
     background-color: rgba(185, 117, 83, 0.589);
-    transition: transform 0.4s ease-in 0.9s;
+    transition: transform 0.4s ease-in 0.09s;
 }
 .coffe-cup:hover{
     transform: translateY(-10px);
@@ -206,10 +209,11 @@ padding: 12px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
+    gap: 80px;
 }
 .beans-container div{
     width: 180px;
-    height: 180px;
+    height: 200px;
     text-align: center;
     border-radius: 10px;
     border: 1px solid rgba(77, 48, 34, 0.589);
