@@ -212,8 +212,8 @@ padding: 12px;
     gap: 80px;
 }
 .beans-container div{
-    width: 180px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     text-align: center;
     border-radius: 10px;
     border: 1px solid rgba(77, 48, 34, 0.589);
@@ -222,7 +222,7 @@ padding: 12px;
 .beans-container img{
     position: relative;
     top: -130px;
-    width: 184px;
+    width: 200px;
 }
 .beans-container p{
     margin-top: -150px;
